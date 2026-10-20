@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Formulários</title>
+        <link rel="stylesheet" href="css/style.css"/>
+    </head>
+    <body>
+        <h1>Cadastro de herois</h1>
+        <form action="#">
+            <!--Os campos ficam aqui dentro-->
+            <Label for="busca">Buscar</Label>
+            <input id="busca" name="busca" type="text"/>
+            <button type="submit">Buscar</button>
+        
+
+        <label for="email">Email</label>
+        <input id="email" name="email" type="text"/>
+          <button type="submit">Buscar</button>
+
+          <label for="idade">idade</label>
+        <input id="idade" name="idade" type="number"/>
+
+            <label for="nascimento">Nascimento</label>
+        <input id="nascimento" name="nascimento" type="date"/>
+
+        <p>Qual periodo você prefere dormir?</p>
+        <input id="manhã" name="periodo" type="radio"/>
+        <label for="Manhã">Manhã</label>
+        <input id="tarde" name="periodo" type="radio"/>
+        <label for="Tarde">Tarde</label>
+        <input id="Noite" name="periodo" type="radio"/>
+        <label for="Noite">Noite</label>
+
+        <input id="novidades" name="novidades" type="checkbox"/>
+        <label for="novidades">Quero receber novidades!!!</label>
+
+<br>
+<br>
+        <label for="comida">Comida preferida</label>
+        <select id="comida" name="comida">
+            <option>Escolha uma comida preferida</option>
+            <option>Grilho frito</option>
+            <option>Sapo frito</option>
+            <option>Paca frito</option>
+        </select>
+        <br>
+        <label for="descricao">Como você quer a sua comida?</label>
+        <textarea id="descricao" name="descricao" rows="4"></textarea>
+        <br>
+        <button type="submit">Buscar</button>
+        <button type="">Limpar campos</button>
+        </form>
+    </body>
+</html>
